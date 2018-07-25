@@ -1,5 +1,5 @@
 {
-    "name": "dom-to-image-chrome-fix",
+    "name": "dom-to-image-chrome-fix-retina",
     "version": "2.6.0",
     "description": "Generates an image from a DOM node using HTML5 canvas and SVG",
     "main": "src/dom-to-image.js",
@@ -41,5 +41,5 @@
     "bugs": {
         "url": "https://github.com/tsayen/dom-to-image/issues"
     },
-    "homepage": "https://github.com/tsayen/dom-to-image#readme"
+    "homepage": "https://github.com/cube5/dom-to-image#readme"
 }
