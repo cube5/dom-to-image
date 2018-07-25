@@ -1,3 +1,8 @@
+# Why does this fork exist?
+Because I needed the implementation to fix the chrome issue [#220] (https://github.com/tsayen/dom-to-image/issues/220) and to solve the blurry images [#69](https://github.com/tsayen/dom-to-image/issues/69).
+
+This fork combines the two of them [dom-to-image-chrome-fix](https://github.com/pixolith/dom-to-image) and [retina-dom-to-image](https://github.com/eltonjuan/dom-to-image).
+
 # DOM to Image
 
 [![Build Status](https://travis-ci.org/tsayen/dom-to-image.svg?branch=master)](https://travis-ci.org/tsayen/dom-to-image)
