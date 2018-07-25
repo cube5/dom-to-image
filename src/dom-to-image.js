@@ -163,8 +163,10 @@
 
         function newCanvas(domNode) {
             var canvas = document.createElement('canvas');
-            canvas.width = options.width || util.width(domNode);
-            canvas.height = options.height || util.height(domNode);
+            canvas.width = options.width || util.width(domNode) * 2;
+            canvas.height = options.height || util.height(domNode) * 2;
+            canvas.style.width = util.width(domNode);
+            canvas.style.height = util.height(domNode);
 
             if (options.bgcolor) {
                 var ctx = canvas.getContext('2d');
